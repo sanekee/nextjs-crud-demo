@@ -1,0 +1,29 @@
+version: '3.8'
+
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+    env_file:
+      - .env
+    networks:
+      - demo-network
+    ports:
+      - "3000:3000"
+
+  db:
+    image: mongo:latest
+    restart: unless-stopped
+    volumes:
+      - mongodb-data:/data/db
+    networks:
+      - demo-network
+
+volumes:
+  mongodb-data:
+
+networks:
+  demo-network:
+    driver: bridge
+    name: demo-network
