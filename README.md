@@ -10,6 +10,16 @@ This is a CRUD demo project using Next.js.
 * ✅ CRUD
 * ✅ REST API
 
+## Screenshots
+
+| Desktop                    | Mobile                    |
+|----------------------------|---------------------------|
+|![](docs/images/desktop.png)|![](docs/images/mobile.png)|
+
+## Video Demo
+
+![](docs/images/demo.mp4)
+
 ## Sequence Diagram
 
 ```mermaid
@@ -59,12 +69,6 @@ sequenceDiagram
     MongoDB-->>-Backend: Acknowledgment
     Backend-->>-Frontend: User deleted success response
 ```
-
-## Screenshots
-
-| Desktop                    | Mobile                    |
-|----------------------------|---------------------------|
-|![](docs/images/desktop.png)|![](docs/images/mobile.png)|
 
 ## Running
 
