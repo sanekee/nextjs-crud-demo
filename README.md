@@ -18,7 +18,7 @@ This is a CRUD demo project using Next.js.
 
 ## Video Demo
 
-![](docs/images/demo.mp4)
+https://github.com/sanekee/nextjs-crud-demo/blob/main/docs/images/demo.mp4
 
 ## Sequence Diagram
 
