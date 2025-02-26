@@ -85,7 +85,7 @@ const AddUser: FC = () => {
                         {errors.phone && <p className="text-red-500 text-sm">{errors.phone.message}</p>}
                     </div>
                     < div className="mt-4" >
-                        <Button>submit</Button>
+                        <Button variant="outline" size="sm">submit</Button>
                     </div>
                 </form>
             </div >
